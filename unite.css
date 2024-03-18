@@ -7,7 +7,7 @@ body{
 }
 :root{
     --primary-color:rgb(69, 19, 52); 
-    --secondry-color: rgb(251, 172, 123);
+    --secondry-color: rgb(25, 19, 69);
 
 
 }
@@ -287,7 +287,7 @@ nav{
     top: 0;
     width: 50%;
     height: 85%;
-    background:rgb(69 19 52 / 80%);
+    background:rgb(19 19 69 / 80%);
     opacity: 0;
     margin-top: 76px;
     text-align: bottom;
@@ -321,6 +321,7 @@ nav{
     padding: 27px 28px;
     flex-basis: 40%;
     margin-bottom: 20px;
+    position: relative;
 
 }
 .pictures .pic1 img{
@@ -332,6 +333,50 @@ nav{
     padding-top: 15px;
 
     
+}
+.pictures .pic2 .over{
+    position: absolute;
+    top: 0;
+    width: 88%;
+    height: 42%;
+    background:rgb(19 19 69 / 80%);
+    opacity: 0;
+    margin-top: 76px;
+    padding-top: 211px;
+    color: white;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.pictures .pic2 .over h5 a{
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--secondry-color);
+}
+.pictures .pic2:hover .over{
+    opacity: 1;
+    transition: 3s;
+}
+.pictures .pic2 .oven{
+    position: absolute;
+    top: 0;
+    width: 88%;
+    height: 42%;
+    background:rgb(19 19 69 / 80%);
+    opacity: 0;
+    margin-top: 369px;
+    padding-top: 211px;
+    color: white;
+    padding-right: 49px;
+    padding-left: 50px;
+}
+.pictures .pic2 .oven h5 a{
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--secondry-color);
+}
+.pictures .pic2:hover .oven{
+    opacity: 1;
+    transition: 3s;
 }
 @media (max-width:1029px) {
     .pictures{
@@ -682,6 +727,7 @@ nav{
 }
 .jacket .jack2 img{
     width: 100%;
+    height: 60%;
 }
 .jacket .jack h2{
     padding-bottom: 20px;
@@ -1097,6 +1143,7 @@ nav{
 }
 .real img{
     width: 100%;
+    height: 60%;
 }
 .qr{
     text-align: center;
