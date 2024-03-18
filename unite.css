@@ -1158,10 +1158,12 @@ nav{
 .manage .did{
     text-align: center;
     line-height: 25px;
+    padding-top: 40px;
 }
 .manage .did h1{
     font-size: 45px;
     padding-bottom: 25px;
+    
 }
 .manage .did p{
     font-size: 20px;
