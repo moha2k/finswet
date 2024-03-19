@@ -1150,26 +1150,27 @@ nav{
     font-size: 30px;
 }
 .manage{
-/*    padding-left: 60px; */
-   padding-right: 150px;
+   /* padding-right: 150px; */
+
     
     
 }
 .manage .did{
     text-align: center;
     line-height: 25px;
-    padding-top: 40px;
+    padding-top: 30px;
 }
 .manage .did h1{
     font-size: 45px;
     padding-bottom: 25px;
-    
 }
 .manage .did p{
     font-size: 20px;
     padding-bottom: 30px;
 }
 .manage .done{
+    margin-left: 40px;
+    margin-right: 40px;
     padding-top: 40px;
     font-size: 24px;
     background: rgb(255, 255, 255);
@@ -1181,28 +1182,29 @@ nav{
 }
 .manage .done .don{
     display: flex;
+    justify-content: space-between;
 }
 @media (max-width:767px) {
     .manage .done .don{
-        flex-basis: 100%;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     
 }
 .manage .done .don .do{
-    padding-right: 200px;
+    flex-basis: 45%;
 }
 .manage .done .don .do input{
-    width: 200%;
+    width: 90%;
     height: 40px;
     border-radius: 6px;
     border: 1px solid gray;
     margin-top: 10px;
     padding-left: 10px;
     margin-bottom: 10px;
+    display: block;
 }
 .manage .done .don .di input{
-    width: 200%;
+    width: 90%;
     height: 40px;
     border-radius: 6px;
     border: 1px solid gray;
@@ -1210,7 +1212,7 @@ nav{
     padding-left:10px;
 }
 .manage .done .don .do .select{
-    width: 200%;
+    width: 90%;
     height: 40px;
     border-radius: 6px;
     border: 1px solid gray;
@@ -1218,10 +1220,11 @@ nav{
     padding-left: 10px;
 }
 .manage .done .area{
+    flex-basis: 100%;
 }
 
 .manage .done .area textarea{
-    width: 72%;
+    width: 95%;
     margin-top: 10px;
     font-size: 20px;
     padding-left: 10px;
