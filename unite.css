@@ -162,7 +162,7 @@ nav{
     justify-content: space-between;
     background: var(--primary-color);
     width: 100%;
-    padding: 60px 60px;
+    padding: 60px 25px;
     flex-wrap: wrap;
     max-width: 100%;
 }
@@ -201,7 +201,7 @@ nav{
 }
 .paragraph{
     display: flex;
-    padding: 50px 50px;
+    padding: 50px 25px;
     background: rgb(238 244 250);
 }
 @media (max-width:767px) {
@@ -427,7 +427,7 @@ nav{
 }
 .section .txt{
     text-align: center;
-    padding: 60px 60px;
+    padding: 60px 25px;
     
 }
 .section .content{
@@ -469,7 +469,7 @@ nav{
 }
 .parts{
     display: flex;
-    padding: 50px 50px;
+    padding: 50px 25px;
 }
 @media (max-width:767px) {
     .parts{
@@ -520,7 +520,7 @@ nav{
 }
 .lists{
     display: flex;
-    padding: 40px 40px;
+    padding: 40px 20px;
 }
 @media (max-width:991px) {
     .lists{
@@ -609,7 +609,7 @@ nav{
 .service{
     display: flex;
     justify-content: space-between;
-    padding: 5px 50px;
+    padding: 5px 25px;
     font-size: 20px;
 }
 .service .ser a{
@@ -699,7 +699,7 @@ nav{
 .roots{
     display: flex;
     justify-content: space-between;
-    padding: 60px 60px;
+    padding: 60px 25px;
 }
 @media (max-width:991px) {
     .roots{
