@@ -282,6 +282,7 @@ nav{
  /* padding: 20px 20px; */
 
 }
+
 .pictures .pic1 .cover{
     position: absolute;
     top: 0;
@@ -290,13 +291,13 @@ nav{
     background:rgb(19 19 69 / 80%);
     opacity: 0;
     margin-top: 76px;
-    text-align: bottom;
     color: white;
     padding-right: 50px;
     padding-left: 50px;
 }
+
 .pictures .pic1 .cover h2{
-    font-size: 35px;
+    font-size: 25px;
     padding-bottom: 20px;
 }
 .pictures .pic1 .cover p{
@@ -311,63 +312,81 @@ nav{
 
 
 }
-.pictures .pic1 .cover{}
+
 .pictures .pic1:hover .cover{
     opacity: 1;
-    transition: 1s;
+    transition: 3s;
 }
 .pictures .pic2{
     flex-wrap: wrap;
     padding: 27px 28px;
     flex-basis: 40%;
     margin-bottom: 20px;
-    position: relative;
+    /* position: relative; */
 
 }
 .pictures .pic1 img{
     width: 100%;
+    /* height: 97vh; */
     
 }
 .pictures .pic2 img{
     width: 100%;
-    padding-top: 15px;
+    padding-top: 10px;
 
     
 }
+
+.pictures .pic2 .more{
+    position: relative;
+}
+
 .pictures .pic2 .over{
     position: absolute;
     top: 0;
-    width: 88%;
-    height: 42%;
+    width: 100%;
+    height: 100%;
     background:rgb(19 19 69 / 80%);
     opacity: 0;
-    margin-top: 76px;
-    padding-top: 211px;
+    /* margin-top: 76px; */
+    /* padding-top: 211px; */
     color: white;
-    padding-right: 50px;
-    padding-left: 50px;
+    /* padding-right: 50px; */
+    /* padding-left: 50px; */
 }
 .pictures .pic2 .over h5 a{
     text-decoration: none;
     font-size: 18px;
     color: var(--secondry-color);
 }
-.pictures .pic2:hover .over{
+.pictures .pic2 .more:hover .over{
     opacity: 1;
     transition: 3s;
 }
+
+.pictures .pic2 .more1{
+    position: relative;
+}
+.pictures .pic2 .oven h2{
+    padding-top: 60px;
+    padding-left: 20px;
+}
+.pictures .pic2 .oven h5{
+    padding-left: 20px;
+}
+
 .pictures .pic2 .oven{
     position: absolute;
     top: 0;
-    width: 88%;
-    height: 42%;
+    width: 100%;
+    height: 100%;
     background:rgb(19 19 69 / 80%);
     opacity: 0;
-    margin-top: 369px;
-    padding-top: 211px;
+    /* margin-top: 369px;
+    padding-top: 211px; */
     color: white;
-    padding-right: 49px;
-    padding-left: 50px;
+    /* padding-right: 49px;
+    padding-left: 50px; */
 }
 .pictures .pic2 .oven h5 a{
     text-decoration: none;
@@ -630,7 +649,7 @@ nav{
     display: flex;
     justify-content: space-between;
     background: var(--primary-color);
-    padding: 40px 40px;
+    padding: 40px 20px;
 }
 @media (max-width:991px) {
     .footer{
@@ -709,11 +728,11 @@ nav{
 }
 .jacket{
     display: inline block;
-    padding: 60px 60px;
+    padding: 60px 25px;
 }
 .jacket .jack{
     display: flex;
-    padding: 50px 50px;
+    padding: 50px 25px;
     background: rgb(237, 235, 235);
 
 }
@@ -735,7 +754,7 @@ nav{
     font-weight: 400;
 }
 .process{
-    padding: 40px 40px;
+    padding: 40px 25px;
     flex-wrap: wrap;
 }
 .process .prc{
@@ -784,7 +803,7 @@ nav{
 .boots{
     display: flex;
     justify-content: space-between;
-    padding: 60px 60px;
+    padding: 60px 25px;
     background: rgb(218, 227, 255);
 }
 @media (max-width:991px) {
@@ -814,7 +833,7 @@ nav{
 }
 .lemdo{
     display: inline;
-    padding: 50px 50px;
+    padding: 50px 25px;
 }
 .lemdo .lem{ 
     text-align: center;
@@ -825,12 +844,12 @@ nav{
 }
 .lemdo .lem1{ 
     display: flex;
-    padding: 40px 40px;
+    padding: 40px 24px;
     flex-basis: 45%;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .lemdo .lem1{
-        flex-basis: 100%;
+        flex-basis: 45%;
         flex-wrap: wrap;
     }
     
@@ -857,7 +876,7 @@ nav{
     font-weight: lighter;
 }
 .coon{
-    padding: 60px 60px;
+    padding: 60px 25px;
     background: rgb(207, 228, 244);
 }
 .coon .con{
@@ -911,7 +930,7 @@ nav{
 .kooban{
     display: flex;
     justify-content: space-between;
-    padding: 50px 50px;
+    padding: 50px 25px;
     background: var(--primary-color);
     color: white;
 }
@@ -954,7 +973,7 @@ nav{
 }
 .section6{
     background: white;
-    padding: 60px 60px;
+    padding: 60px 10px;
 }
 .section6 .file{
     text-align: center;
@@ -989,7 +1008,7 @@ nav{
 .section6 .row .col{
     border: 1px solid white;
     background: rgb(216, 216, 216);
-    padding: 22px 66px;
+    padding: 22px 25px;
     border-radius: 4px;
 }
 .section6 .row .col:hover{
@@ -1055,7 +1074,7 @@ nav{
     padding-top: 30px;
 }
 .bigger{
-    padding: 50px 50px;
+    padding: 50px 25px;
 }
 
 @media (max-width: 767px) {
